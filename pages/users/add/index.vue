@@ -1,5 +1,5 @@
 <template>
-  <b-container>
+  <b-container class="myColor">
     <b-row class="d-flex justify-content-center rowTitle">
       <h3>Create a User</h3>
     </b-row>
@@ -101,6 +101,9 @@ export default Vue.extend({
 })
 </script>
 <style scoped>
+  .myColor {
+    background: "red"
+  }
   .rowTitle {
     margin-top: 105px;
   }
