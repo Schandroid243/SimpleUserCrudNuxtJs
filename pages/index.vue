@@ -11,3 +11,11 @@ export default Vue.extend({
   }
 })
 </script>
+<style scoped>
+  .myColor {
+    background-color: red
+  }
+  .rowTitle {
+    margin-top: 105px;
+  }
+</style>

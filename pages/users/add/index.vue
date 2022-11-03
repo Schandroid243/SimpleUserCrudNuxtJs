@@ -1,5 +1,5 @@
 <template>
-  <b-container class="myColor">
+  <b-container>
     <b-row class="d-flex justify-content-center rowTitle">
       <h3>Create a User</h3>
     </b-row>
@@ -64,10 +64,8 @@
     </b-row>
   </b-container>
 </template>
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
+<script>
+export default {
   data() {
     return {
       form: {
@@ -98,11 +96,11 @@ export default Vue.extend({
       this.form.password = ""
     }
   }
-})
+}
 </script>
 <style scoped>
   .myColor {
-    background: "red"
+    background-color: red
   }
   .rowTitle {
     margin-top: 105px;
